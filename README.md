@@ -128,12 +128,10 @@ Chocolate-Sales-Analysis/
 │   └── Chocolate_Sales_Dashboard.pbix
 │
 ├── images/
-│   ├── dashboard_overview.png
-│   ├── dashboard_page1.png
-│   └── dashboard_page2.png
+│   ├── Executive_dashboard.png
+│   ├── Sales_performance_dashboard.png
 │
 ├── README.md
-└── requirements.txt
 ```
 
 ---
@@ -150,15 +148,5 @@ Chocolate-Sales-Analysis/
 - Business Intelligence
 - Python Programming
 - Power BI Reporting
-
----
-
-## Future Improvements
-
-- Add forecasting to predict future sales trends.
-- Build customer segmentation using clustering techniques.
-- Develop a sales performance forecasting dashboard.
-- Integrate SQL for automated data extraction.
-- Deploy the dashboard using the Power BI Service.
 
 ---
