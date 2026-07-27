@@ -122,7 +122,7 @@ Chocolate-Sales-Analysis/
 │   └── Chocolate_Sales_Cleaned.csv
 │
 ├── notebooks/
-│   └── Chocolate_Sales_Analysis.ipynb
+│   └── Data_Cleaning_and_EDA.ipynb
 │
 ├── powerbi/
 │   └── Chocolate_Sales_Dashboard.pbix
