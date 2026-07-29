@@ -34,135 +34,94 @@ Improve operational planning by understanding sales trends and shipment volumes.
 
 Support strategic decision-making through interactive dashboards and business insights.
 
+## Data Source
+
+[data/Chocolate_Sales.csv](https://www.kaggle.com/datasets/arjunmehta1992/chocolate-sales-in-20222023): Shows Sales Information, Product Information, Market Information, and Sales Performance Information.
+
 ## Tools & Technologies
 
-- Python
-- Jupyter Notebook
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- Power BI
+**Python** – Data cleaning, transformation and exploratory data analysis.
 
----
+**Pandas & NumPy** – Data manipulation, analysis and numerical computation.
 
-## Project Workflow
+**Matplotlib** – Data visualisation and trend analysis.
 
-### 1. Data Understanding
+**Jupyter Notebook** – Data preparation, analysis and project documentation.
 
-The dataset was explored to understand its structure and identify potential data quality issues.
+**Power BI** – Interactive dashboard development and business reporting.
 
-Tasks completed:
-- Loaded the dataset
-- Inspected the dataset structure
-- Reviewed data types
-- Checked missing values
-- Checked duplicate records
-- Generated descriptive statistics
+**Power Query** – Data validation and preparation for reporting.
 
----
+## Data Preparation
+The dataset underwent a structured preparation process to ensure it was accurate, consistent and suitable for analysis and dashboard development.
+### Data Loading
+- Imported the chocolate sales dataset into Jupyter Notebook using Pandas.
+- Loaded the dataset for cleaning, analysis and visualisation.
 
-### 2. Data Cleaning
+### Data Inspection
+- Reviewed the dataset structure, column names and data types.
+- Identified missing values, duplicate records and data quality issues.
 
-The dataset was cleaned to ensure accurate and reliable analysis.
+### Handling Missing Values
+- Identified missing values across the dataset.
+- Addressed missing values using appropriate data cleaning techniques.
 
-Tasks completed:
-- Converted the `Order_Date` column to datetime format
-- Converted the `Amount` column to a numeric data type
-- Removed rows containing missing values
-- Verified data consistency
-- Prepared the dataset for analysis
+### Data Cleaning
+- Removed duplicate records.
+- Corrected data types for date and numerical columns.
+- Converted monetary values into numerical format.
+- Standardised data formats for consistency.
+- Investigated and handled invalid shipment records.
 
----
+### Data Integration
+- Exported the cleaned dataset as a CSV file.
+- Imported the cleaned dataset into Power BI for dashboard development.
 
-### 3. Exploratory Data Analysis (EDA)
+## Final Data
+Following data preparation, the final dataset contained all the key business attributes required for analysis and reporting, including: Order ID, Product, Country, Sales Channel, Salesperson, Order Date, Discount Percentage, Price per Box, Marketing Spend, Boxes Shipped and Revenue (Amount).
 
-The cleaned dataset was analyzed to answer important business questions.
+## Data Analysis and Visualization
+After preparing the data, several analyses and visualisations were conducted to extract insights into the company's sales performance. The main focus was on **revenue performance, product performance, market performance and sales performance.**
+<img width="1090" height="444" alt="image" src="https://github.com/user-attachments/assets/9788f86b-10f4-4b9c-9b47-acb44ccf4d8e" />
+**Insight:** 
+December recorded the highest monthly revenue, followed by November, and January. June had the lowest revenue.
+The results suggest that sales fluctuate throughout the year, with stronger performance towards the end of the year. This pattern can help the business plan inventory, marketing campaigns, and sales strategies more effectively.
 
-Business questions explored:
+<img width="880" height="489" alt="image" src="https://github.com/user-attachments/assets/4ed79c2e-d89f-479a-872d-e6ca90051b59" />
 
-- What is the overall sales performance?
-- Which products generate the highest revenue?
-- Which countries contribute the most revenue?
-- Which sales channels perform best?
-- Who are the top-performing salespeople?
-- How does revenue change over time?
-- What is the distribution of order revenue?
-- Is there a relationship between marketing spend and revenue?
+**Insight:** 70% Dark Bar generated the highest revenue, followed by Mixed Assortment Box and Truffle Gift Box. These products appear to be the company's strongest revenue drivers and should remain a priority for sales and marketing efforts.
 
-Visualizations created:
+<img width="692" height="474" alt="image" src="https://github.com/user-attachments/assets/efdad19e-bffd-4d5e-b5a1-201a167a0e3c" />
 
-- Revenue by Product
-- Revenue by Country
-- Revenue by Sales Channel
-- Top 10 Salespeople by Revenue
-- Monthly Revenue Trend
-- Revenue Distribution
-- Marketing Spend vs Revenue
+**Insight:** Australia contributed the highest revenue, while Japan recorded the lowest. This suggests stronger market performance in Australia and potential opportunities for growth in Japan.
 
----
+<img width="637" height="490" alt="image" src="https://github.com/user-attachments/assets/ffd137b1-6bb9-4e2a-b264-cbf066d30ed2" />
 
-### 4. Power BI Dashboard
+**Insight:** The scatter plot and correlation analysis indicate a moderate positive relationship between marketing spend and revenue (correlation = 0.373). While revenue generally tends to increase as marketing spend increases, the relationship is not strong, and there is considerable variation in revenue across different levels of marketing spend.
+This suggests that marketing spend contributes to revenue generation, but other factors such as product type, sales channel, pricing, and customer demand also influence sales performance.
 
-The cleaned dataset was imported into Power BI to create an interactive business dashboard.
+## Recommendations
 
-Dashboard features include:
+1. Strengthen High-Performing Products
+Focus sales and marketing efforts on the highest-performing products to maximise revenue while identifying opportunities to improve lower-performing product lines.
 
-- Executive KPI Cards
-- Revenue by Product
-- Revenue by Country
-- Revenue by Sales Channel
-- Monthly Revenue Trend
-- Top Salespeople Analysis
-- Interactive Filters and Slicers
+2. Expand High-Performing Markets
+Increase investment in countries with the strongest sales performance while exploring strategies to grow revenue in underperforming markets.
 
----
+3. Optimise Sales Channels
+Build on the success of the retail channel and develop targeted initiatives to improve the performance of the wholesale and online channels.
 
-## Key Insights
+4. Enhance Sales Performance
+Recognise top-performing sales representatives and share their best practices to improve the performance of the wider sales team.
 
-- The company generated approximately **USD 101.75 million** in total revenue.
-- Retail was the highest-performing sales channel, followed by Wholesale and Online.
-- December recorded the highest monthly revenue during the analysis period.
-- Revenue distribution was positively skewed, with many low-to-medium value orders and fewer high-value transactions.
-- Marketing spend showed a moderate positive correlation (0.373) with revenue, indicating that while marketing contributes to sales performance, other business factors also influence revenue.
+5. Optimise Marketing Investment
+Allocate marketing budgets strategically by prioritising campaigns that demonstrate the greatest impact on revenue generation.
 
----
+## Conclusion
 
-## Project Structure
+Analysis of two years of chocolate sales data (2022–2023) revealed key insights into the company's revenue, products, markets and sales performance. The business generated **$101.75 million** in total revenue, with sales remaining relatively stable throughout the analysis period and peaking in **December**, indicating seasonal demand. Product analysis showed that a small number of products contributed a significant share of total revenue, while market analysis identified the company's strongest-performing countries and confirmed that the **Retail** sales channel generated the highest revenue, followed by **Wholesale** and **Online**. Sales performance analysis also identified the top-performing sales representatives and found a **moderate positive relationship** between marketing expenditure and revenue, suggesting that marketing investment contributes to sales growth alongside other business factors.
 
-```text
-Chocolate-Sales-Analysis/
-│
-├── data/
-│   ├── Chocolate_Sales.csv
-│   └── Chocolate_Sales_Cleaned.csv
-│
-├── notebooks/
-│   └── Data_Cleaning_and_EDA.ipynb
-│
-├── powerbi/
-│   └── Chocolate_Sales_Dashboard.pbix
-│
-├── images/
-│   ├── Executive_dashboard.png
-│   ├── Sales_performance_dashboard.png
-│
-├── README.md
-```
+The findings highlight opportunities to increase revenue by strengthening high-performing products, expanding successful markets, optimising sales channels and allocating marketing resources more effectively. By combining Python for data preparation and analysis with Power BI for interactive reporting, the project demonstrates how data analytics can transform raw sales data into actionable business insights that support informed strategic and operational decision-making.
 
----
-
-## Skills Demonstrated
-
-- Data Cleaning
-- Data Wrangling
-- Exploratory Data Analysis
-- Business Analytics
-- Statistical Analysis
-- Data Visualization
-- Dashboard Development
-- Business Intelligence
-- Python Programming
-- Power BI Reporting
-
----
+## Github Link
+https://github.com/gordon-moenga/Chocolate-Sales-Analysis
