@@ -1,22 +1,38 @@
-# Chocolate Sales Analysis (2022–2023)
+# Chocolate Sales Analysis
 
 ## Project Overview
 
-This project analyzes a chocolate sales dataset to uncover sales trends, evaluate business performance, and generate actionable business insights. The analysis follows a complete data analytics workflow, beginning with data understanding and cleaning, followed by exploratory data analysis (EDA), and ending with the development of an interactive Power BI dashboard.
+The company seeks to improve its sales performance by gaining a deeper understanding of how its products, markets and sales channels contribute to overall business success. This project analyses two years of historical chocolate sales data (2022–2023) to evaluate business performance across products, countries, sales channels and sales representatives. The analysis focuses on identifying the primary drivers of revenue, shipment volume and sales performance, enabling stakeholders to make informed decisions regarding product strategy, market opportunities and operational efficiency.
 
-The project demonstrates practical data analysis skills using Python for data preparation and exploration, and Power BI for business reporting and visualization.
+Methodology: A structured workflow was followed, covering data preparation, analysis and dashboard development.
 
----
+Data Cleaning: The dataset was cleaned by resolving missing values, correcting data types and improving data quality.
 
-## Project Objectives
+Exploratory Data Analysis: Sales trends, patterns and relationships were explored using statistical analysis and visualisations.
 
-- Understand the structure and quality of the dataset.
-- Clean and prepare the data for analysis.
-- Analyze sales performance across different business dimensions.
-- Identify trends, patterns, and relationships within the data.
-- Develop an interactive Power BI dashboard to present key business insights.
+## Business Understanding
 
----
+The company aims to strengthen its sales strategy by understanding the factors that influence business performance. By analysing two years of historical sales data, the analytics team evaluates product performance, regional sales, sales channels and revenue trends to identify opportunities that support informed business decisions and sustainable growth.
+
+## Key Business Questions
+
+Revenue Performance: How has the company's revenue performed over the two-year analysis period?
+
+Product Performance: Which products contribute the most to overall business performance?
+
+Market Performance: Which countries and sales channels generate the highest sales?
+
+Sales Performance: How effectively are sales representatives and marketing efforts driving revenue?
+
+## Goal
+
+Increase revenue by identifying the highest-performing products and markets.
+
+Optimise sales strategies by evaluating the performance of sales channels and sales representatives.
+
+Improve operational planning by understanding sales trends and shipment volumes.
+
+Support strategic decision-making through interactive dashboards and business insights.
 
 ## Tools & Technologies
 
