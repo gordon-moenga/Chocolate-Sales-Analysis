@@ -95,7 +95,7 @@ The results suggest that sales fluctuate throughout the year, with stronger perf
 
 **Insight:** Australia contributed the highest revenue, while Japan recorded the lowest. This suggests stronger market performance in Australia and potential opportunities for growth in Japan.
 
-<img width="637" height="490" alt="image" src="https://github.com/user-attachments/assets/ffd137b1-6bb9-4e2a-b264-cbf066d30ed2" />
+<img width="636" height="489" alt="image" src="https://github.com/user-attachments/assets/8f667530-02f5-4958-9156-71114b1c760c" />
 
 **Insight:** The scatter plot and correlation analysis indicate a moderate positive relationship between marketing spend and revenue (correlation = 0.373). While revenue generally tends to increase as marketing spend increases, the relationship is not strong, and there is considerable variation in revenue across different levels of marketing spend.
 This suggests that marketing spend contributes to revenue generation, but other factors such as product type, sales channel, pricing, and customer demand also influence sales performance.
