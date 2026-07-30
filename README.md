@@ -1,6 +1,6 @@
 # Chocolate Sales Analysis
 
-## Project Overview
+## Overview
 
 The company seeks to improve its sales performance by gaining a deeper understanding of how its products, markets and sales channels contribute to overall business success. This project analyses two years of historical chocolate sales data (2022–2023) to evaluate business performance across products, countries, sales channels and sales representatives. The analysis focuses on identifying the primary drivers of revenue, shipment volume and sales performance, enabling stakeholders to make informed decisions regarding product strategy, market opportunities and operational efficiency.
 
