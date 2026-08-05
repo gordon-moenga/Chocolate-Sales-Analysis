@@ -81,23 +81,28 @@ The dataset underwent a structured preparation process to ensure it was accurate
 Following data preparation, the final dataset contained all the key business attributes required for analysis and reporting, including: Order ID, Product, Country, Sales Channel, Salesperson, Order Date, Discount Percentage, Price per Box, Marketing Spend, Boxes Shipped and Revenue (Amount).
 
 ## Data Analysis and Visualization
-After preparing the data, several analyses and visualisations were conducted to extract insights into the company's sales performance. The main focus was on **revenue performance, product performance, market performance and sales performance.**
+After preparing the data, several analyses and visualisations were conducted to extract insights into the company's sales performance. The main focus was on revenue performance, product performance, market performance and sales performance.
+
 <img width="1090" height="444" alt="image" src="https://github.com/user-attachments/assets/9788f86b-10f4-4b9c-9b47-acb44ccf4d8e" />
+
 **Insight:** 
 December recorded the highest monthly revenue, followed by November, and January. June had the lowest revenue.
 The results suggest that sales fluctuate throughout the year, with stronger performance towards the end of the year. This pattern can help the business plan inventory, marketing campaigns, and sales strategies more effectively.
 
 <img width="880" height="489" alt="image" src="https://github.com/user-attachments/assets/4ed79c2e-d89f-479a-872d-e6ca90051b59" />
 
-**Insight:** 70% Dark Bar generated the highest revenue, followed by Mixed Assortment Box and Truffle Gift Box. These products appear to be the company's strongest revenue drivers and should remain a priority for sales and marketing efforts.
+**Insight:**
+70% Dark Bar generated the highest revenue, followed by Mixed Assortment Box and Truffle Gift Box. These products appear to be the company's strongest revenue drivers and should remain a priority for sales and marketing efforts.
 
 <img width="692" height="474" alt="image" src="https://github.com/user-attachments/assets/efdad19e-bffd-4d5e-b5a1-201a167a0e3c" />
 
-**Insight:** Australia contributed the highest revenue, while Japan recorded the lowest. This suggests stronger market performance in Australia and potential opportunities for growth in Japan.
+**Insight:** 
+Australia contributed the highest revenue, while Japan recorded the lowest. This suggests stronger market performance in Australia and potential opportunities for growth in Japan.
 
 <img width="636" height="489" alt="image" src="https://github.com/user-attachments/assets/8f667530-02f5-4958-9156-71114b1c760c" />
 
-**Insight:** The scatter plot and correlation analysis indicate a moderate positive relationship between marketing spend and revenue (correlation = 0.373). While revenue generally tends to increase as marketing spend increases, the relationship is not strong, and there is considerable variation in revenue across different levels of marketing spend.
+**Insight:**
+The scatter plot and correlation analysis indicate a moderate positive relationship between marketing spend and revenue (correlation = 0.373). While revenue generally tends to increase as marketing spend increases, the relationship is not strong, and there is considerable variation in revenue across different levels of marketing spend.
 This suggests that marketing spend contributes to revenue generation, but other factors such as product type, sales channel, pricing, and customer demand also influence sales performance.
 
 ## Recommendations
